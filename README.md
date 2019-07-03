@@ -1,6 +1,9 @@
 # ESP8266
 
 Get the current light intensity with a ESP8266 and a photocell and display it on a webpage with the IP address.
+
+Get also the current pressure with a ESP8266 and a force sensitive resistor and display it on a webpage with the IP address.
+
 Next you could set a domotic system that switch on/off lights in your home.
 
 It can be used with other digital sensors because the ESP8266 has only one Analogic Digital Converter pin (ADC0).

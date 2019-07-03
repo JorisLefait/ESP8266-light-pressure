@@ -59,3 +59,7 @@ Resistor 10KΩ
 ### Get Pressure State
 
 Go to http:// *yourESP8266IP* /api/embedded_light/state?embedded_light_api_key=ppDk0rATHKv8vyqlzjvVnLpBj
+
+## Greetings
+
+Code developped during July 2019 Mob'days thanks to (La Mobilery)[https://www.lamobilery.fr/]

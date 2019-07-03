@@ -34,7 +34,7 @@ Resistor 10KΩ
 
 `server.on(URL_POST_LIGHT_STATE, handleLightState);`
 
-### Get State State
+### Get Light State
 
 Go to http:// *yourESP8266IP* /api/embedded_light/state?embedded_light_api_key=ppDk0rATHKv8vyqlzjvVnNIYc
 
@@ -56,6 +56,6 @@ Resistor 10KΩ
 
 `server.on(URL_POST_PRESSURE_STATE, handlePressureState);`
 
-### Get State State
+### Get Pressure State
 
 Go to http:// *yourESP8266IP* /api/embedded_light/state?embedded_light_api_key=ppDk0rATHKv8vyqlzjvVnLpBj

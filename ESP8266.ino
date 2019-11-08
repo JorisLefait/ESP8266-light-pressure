@@ -1,4 +1,6 @@
 // #include "xxxManager.h"
+#include "webServerManager.h"
+#include "lightManager.h"
 
 //Gestion des routes:
 void initRootUrls() {
@@ -6,7 +8,8 @@ void initRootUrls() {
   server.on(URL_INDEX, handleRootIndex);
   server.on(URL_VERSION, handleRootVersion);
   server.on(URL_GET_API_VERSION, handleRootApiVersion);
-  // server.on(URL_POST_XXX_STATE, handleXxxState);
+  server.on(URL_POST_LIGHT_STATE, handleLightState);
+  //server.on(URL_POST_XXX_STATE, handleXxxState);
   server.onNotFound(handleNotFound);
 }
 

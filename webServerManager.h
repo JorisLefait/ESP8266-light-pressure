@@ -9,8 +9,8 @@
 
 extern ESP8266WebServer server;
 
-const String ssid = "networkssid";
-const String password = "networkpassword";
+const String ssid = "Keyneogroup-02-2,4Ghz";
+const String password = "KeyNeo2016";
 //Url racine:
 const String URL_INDEX = "/";
 //Paramètres de réponse:
